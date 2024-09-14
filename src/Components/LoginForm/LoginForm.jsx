@@ -21,6 +21,10 @@ const LoginForm = () => {
           <a href='#'>Forgot Password?</a>
         </div>
         <button type='submit'>Login</button>
+        <div>
+        <button class="btn"><i class="animation"></i>BUTTON<i class="animation"></i>
+        </button>
+        </div>
 
         <div className='register-link'>
           <p>Don't have an acccount?<a href='#'>Register</a></p>
