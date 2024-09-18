@@ -16,6 +16,11 @@ const LoginForm = () => {
           <input type='password' placeholder='Password' required />
           <FaLock className='icon' />
         </div>
+        <div class="inputbox">
+          <input required="required" type="text">
+          <span>Confirm Password</span>
+    <i></i>
+</div>
         <div className='remember-forgot'>
           <label><input type='checkbox' />Remember me</label>
           <a href='#'>Forgot Password?</a>
